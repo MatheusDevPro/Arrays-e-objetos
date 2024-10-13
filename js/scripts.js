@@ -227,18 +227,18 @@
 
 // console.log(reverseTest);
 
-// 18 - trim
-const trimTest = "  Testando o codigo o metodo Trim \n   ";
+// // 18 - trim
+// const trimTest = "  Testando o codigo o metodo Trim \n   ";
 
-console.log(trimTest.trim());
+// console.log(trimTest.trim());
 
-console.log(trimTest);
+// console.log(trimTest);
 
-console.log(trimTest.trim().length);
+// console.log(trimTest.trim().length);
 
-console.log(trimTest.length);
+// console.log(trimTest.length);
 
-// // 19 - padstart
+// 19 - padstart
 
 // const testePadStart = "1";
 
@@ -252,7 +252,7 @@ console.log(trimTest.length);
 
 // console.log(testePadEnd);
 
-// // 20 - split
+// 20 - split
 // const frase = "O rato roeu a roupa do rei de Roma";
 
 // const arrayDaFrase = frase.split();
@@ -271,7 +271,7 @@ console.log(trimTest.length);
 
 // console.log(palavra.repeat(5));
 
-// // 23 - rest operator
+// 23 - rest operator
 // const somaInfinita = (...args) => {
 //   let total = 0;
 
@@ -304,7 +304,7 @@ console.log(trimTest.length);
 // // 25 - destructuring objetos
 // const userDetails = {
 //   firstName: "Matheus",
-//   lastName: "Battisti",
+//   lastName: "Dantas",
 //   job: "Programador",
 // };
 
@@ -325,23 +325,23 @@ console.log(trimTest.length);
 // console.log(veiculoA, veiculoB, veiculoC);
 
 // // 27 - json
-// const myJson =
-//   '{"name": "Matheus","age": 31, "skills": ["PHP", "JavaScript", "Python"]}';
+const myJson =
+  '{"name": "Matheus","age": 22, "skills": ["PHP", "JavaScript", "Python"]}';
 
-// // 28 - json para objeto e objeto para json
-// const myObject = JSON.parse(myJson);
+// 28 - json para objeto e objeto para json
+const myObject = JSON.parse(myJson);
 
-// console.log(myObject);
+console.log(myObject);
 
-// // json invalido
-// const badJson =
-//   '{"name": Matheus,"age": 31, "skills": ["PHP", "JavaScript", "Python"]}';
+// json invalido
+const badJson =
+  '{"name": Matheus,"age": 22, "skills": ["PHP", "JavaScript", "Python"]}';
 
-// // const myBadObject = JSON.parse(badJson);
-// myObject.isOpenToWork = true;
+// const myBadObject = JSON.parse(badJson);
+myObject.isOpenToWork = true;
 
-// const myNewJson = JSON.stringify(myObject);
+const myNewJson = JSON.stringify(myObject);
 
-// console.log(myNewJson);
+console.log(myNewJson);
 
-// console.log(typeof myNewJson);
+console.log(typeof myNewJson);
