@@ -1,62 +1,62 @@
-//1 - arrays
-const lista = [1, 2, 3, 4, 5];
+// //1 - arrays
+// const lista = [1, 2, 3, 4, 5];
 
-console.log(lista);
+// console.log(lista);
 
-console.log(typeof lista);
+// console.log(typeof lista);
 
-const itens = ["Matheus Dantas", true, 2, 4.12];
+// const itens = ["Matheus Dantas", true, 2, 4.12];
 
-console.log(itens);
+// console.log(itens);
 
-//2 - mais sobre arrays
-const arr = ["a", "b", "c", "d"];
+// //2 - mais sobre arrays
+// const arr = ["a", "b", "c", "d"];
 
-console.log(arr[0]);
+// console.log(arr[0]);
 
-console.log(arr[2]);
+// console.log(arr[2]);
 
-console.log(arr[10]);
+// console.log(arr[10]);
 
-// 3 - propriedades
-const numbers = [5, 12, 4, 22];
+// // 3 - propriedades
+// const numbers = [5, 12, 4, 22];
 
-console.log(numbers.length);
-console.log(numbers["length"]);
+// console.log(numbers.length);
+// console.log(numbers["length"]);
 
-const myName = "Matheus";
+// const myName = "Matheus";
 
-console.log(myName.length);
+// console.log(myName.length);
 
-// 4 - métodos
-const otherNumbers = [1, 2, 3];
+// // 4 - métodos
+// const otherNumbers = [1, 2, 3];
 
-const allNumbers = numbers.concat(otherNumbers);
+// const allNumbers = numbers.concat(otherNumbers);
 
-console.log(allNumbers);
+// console.log(allNumbers);
 
-const text = "algum texto";
+// const text = "algum texto";
 
-console.log(text.toUpperCase());
+// console.log(text.toUpperCase());
 
-console.log(typeof text.toUpperCase);
+// console.log(typeof text.toUpperCase);
 
-console.log(text.indexOf("g"));
+// console.log(text.indexOf("g"));
 
-// // 5 - Objetos
-const person = {
-  name: "Matheus",
-  age: 22,
-  job: "Programador",
-};
+// // // 5 - Objetos
+// const person = {
+//   name: "Matheus",
+//   age: 22,
+//   job: "Programador",
+// };
 
-console.log(person.name);
+// console.log(person.name);
 
-console.log(person.name.length);
+// console.log(person.name.length);
 
-console.log(typeof person);
+// console.log(typeof person);
 
-// // 6 - criando e deletando propriedades
+// // // 6 - criando e deletando propriedades
 // const car = {
 //   engine: 2.0,
 //   brand: "VW",
@@ -76,7 +76,7 @@ console.log(typeof person);
 
 // // 7 - mais sobre objetos
 // const obj = {
-//   a: "teste",
+//   a: "teste de objeto",
 //   b: true,
 // };
 
@@ -125,7 +125,7 @@ console.log(typeof person);
 //   console.log(`Listando usuário: ${users[i]}`);
 // }
 
-// // 11 - push e pop
+// 11 - push e pop
 // const array = ["a", "b", "c"];
 
 // array.push("d");
@@ -144,7 +144,7 @@ console.log(typeof person);
 
 // console.log(array);
 
-// // 12 - shift e unshift
+// 12 - shift e unshift
 
 // const letters = ["a", "b", "c"];
 
@@ -159,7 +159,7 @@ console.log(typeof person);
 
 // console.log(letters);
 
-// // 13 - indexof e lastindexof
+// 13 - indexof e lastindexof
 
 // const myElements = ["Morango", "Maçã", "Abacate", "Pêra", "Abacate"];
 
@@ -176,7 +176,7 @@ console.log(typeof person);
 // console.log(myElements.indexOf("Mamão"));
 // console.log(myElements.lastIndexOf("Mamão"));
 
-// // 14 - slice
+// 14 - slice
 // const testeSlice = ["a", "b", "c", "d", "e", "f"];
 
 // const subArray = testeSlice.slice(2, 4);
@@ -192,7 +192,7 @@ console.log(typeof person);
 // const subArray4 = testeSlice.slice(2);
 // console.log(subArray4);
 
-// // 15 - foreach
+// 15 - foreach
 // const nums = [1, 2, 3, 4, 5];
 
 // nums.forEach((n) => {
@@ -227,16 +227,16 @@ console.log(typeof person);
 
 // console.log(reverseTest);
 
-// // 18 - trim
-// const trimTest = "  testando \n   ";
+// 18 - trim
+const trimTest = "  Testando o codigo o metodo Trim \n   ";
 
-// console.log(trimTest.trim());
+console.log(trimTest.trim());
 
-// console.log(trimTest);
+console.log(trimTest);
 
-// console.log(trimTest.trim().length);
+console.log(trimTest.trim().length);
 
-// console.log(trimTest.length);
+console.log(trimTest.length);
 
 // // 19 - padstart
 
